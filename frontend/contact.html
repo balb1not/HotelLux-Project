@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HotelLux - Serviços</title>
+  <title>HotelLux - Contato</title>
   <link rel="stylesheet" href="/HotelLux-Project/frontend/css/style.css">
 </head>
 <body>
@@ -31,33 +31,18 @@
     </header>
 
   <main>
-    <section class="servicos">
+    <section class="contato">
       <div class="interface">
-        <h2>Nossos Serviços</h2>
-        <div class="cards-container">
-          
-          <!-- Card Gastronomia -->
-          <div class="card">
-            <img src="/HotelLux-Project/frontend/imgs/gastro.webp" alt="Gastronomia">
-            <h3>Gastronomia</h3>
-            <p>Restaurante exclusivo com pratos nacionais e internacionais preparados por chefs renomados.</p>
-          </div>
+        <h2>Entre em Contato</h2>
+        <p>Preencha o formulário abaixo e retornaremos em breve.</p>
 
-          <!-- Card Acomodação -->
-          <div class="card">
-            <img src="/HotelLux-Project/frontend/imgs/acomodacao.webp" alt="Acomodação">
-            <h3>Acomodações</h3>
-            <p>Suítes de luxo com conforto, design moderno e vista privilegiada para garantir sua melhor estadia.</p>
-          </div>
-
-          <!-- Card Atividades -->
-          <div class="card">
-            <img src="/HotelLux-Project/frontend/imgs/academia.webp" alt="Atividades">
-            <h3>Atividades</h3>
-            <p>Experiências únicas como trilhas, spa, piscina e passeios ao ar livre para relaxar e se divertir.</p>
-          </div>
-
-        </div>
+        <form class="form-contato">
+          <input type="text" placeholder="Seu Nome" required>
+          <input type="email" placeholder="Seu Email" required>
+          <input type="tel" placeholder="Telefone">
+          <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
       </div>
     </section>
   </main>
